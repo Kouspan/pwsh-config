@@ -11,6 +11,22 @@
             },
             "keys": "alt+j"
         },
+		{
+			"command":
+			{
+				"action": "copy",
+				"singleline": false,
+			},
+			"keys": "ctrl+shift+c"
+		},
+		{
+			"command":
+			{
+				"action": "paste",
+				"singleline": false,
+			},
+			"keys": "ctrl+shift+v"
+		},
         {
             "command": 
             {
@@ -20,18 +36,6 @@
                 "toggleVisibility": true
             },
             "keys": "win+`"
-        },
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": "find",
